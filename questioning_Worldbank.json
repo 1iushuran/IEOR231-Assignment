@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Do countries with earlier data availability show different trends in female primary completion growth rates compared to countries with late-starting records?",
+    "comment": "From the missing data heatmap from my EDA, some countries have data starting decades earlier than others."
+  },
+  {
+    "question": "Is there a structural shift or acceleration point in the global average female primary completion rate over time, and can change-point analysis detect when and how it occurred?",
+    "comment": "The global trend plot shows a rise, so we can explore on the slope changes in the 1990s and early 2000s."
+  },
+  {
+    "question": "Do countries with higher volatility in annual primary completion rates also tend to have longer periods of missing data",
+    "comment": "Might be some a hidden links between data sparsity and value stability"
+  },
+  {
+    "question": "Are there distinct temporal clusters among countries based on their completion rate trajectories from 1970 to 2023?",
+    "comment": "We can use time-series clustering to identify groups of countries with similar educational development trajectories and learn the patterns"
+  },
+  {
+    "question": "Are there countries that consistently report  >100% or <10%  female primary completion rates, and do they show persistent anomalies over multiple years?",
+    "comment": "Identifying these outliers is statistically interesting, and visualizing their trends could show unusual educational through analytics"
+  }
+]

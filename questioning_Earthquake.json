@@ -1,0 +1,26 @@
+[
+  {
+    "question": "Is the correlation between earthquake depth and magnitude consistent worldwide, or does it vary significantly across different regions? If variations exist, what geological or tectonic factors might explain these differences?",
+    "comment": "After conducting visualization and exploratory data analysis, I found that earthquake depth and magnitude are correlated. However, I suspect that this correlation varies across different regions due to the distinct geological complexities that can significantly influence earthquake magnitude."
+  },
+  {
+    "question": "Are earthquake depths significantly correlated with geographical clusters identified only by latitude and longitude, do certain clusters systematically differ in typical earthquake depth?",
+    "comment": "My cluster analysis shows distinct geographical groups. We can see if each geographical cluster consistently has earthquakes of particular depths"
+  },
+  {
+    "question": "Is there a systematic relationship between magnitude and measurement uncertainty (magError), and does this relationship differ significantly across different magnitude types (magType)?",
+    "comment": "This dataset includes detailed magnitude error estimates. We can investigate correlations between measurement uncertainty and magnitude across magnitude type"
+  },
+  {
+    "question": "Are unusually high-magnitude earthquakes typically followed or preceded by shifts in the daily earthquake occurrence rate, and can a time-series anomaly detection show specific days with deviations?",
+    "comment": "I have conducted a daily count graph of variability over time. We can conduct a deeper time-series analysis and see if peak earthquake magnitudes correlate with unusual changes in daily frequency and any hidden patterns in earthquake occurrence frequency."
+  },
+  {
+    "question": "Can clusters formed by gap size indicate systematic biases in detection capabilities?",
+    "comment": "The correlation heatmap in my EDA revealed relationships with the gap variable. We can explore how different network gaps affect the correlation between depth and magnitude tied to detection coverage."
+  },
+  {
+    "question": "Are outlier events identified through anomaly detection geographically concentrated in specific regions or uniformly dispersed worldwide, and does this pattern remain consistent across different anomaly detection methods?",
+    "comment": "I have a anomaly detection plot of depth vs magnitude and identified rare outliers. So we can detect if these anomalous earthquakes cluster and spread randomly "
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Do states with consistently higher percentages of pneumonia deaths also consistently report higher COVID-19 death counts, and does this relationship remain stable across different MMWR Weeks and months?",
+    "comment": "The correlation analysis in my EDA showed pneumonia deaths strongly correlated with COVID-19 deaths. "
+  },
+  {
+    "question": "Does the variance in weekly influenza deaths correlate with subsequent fluctuations in COVID-19 deaths or pneumonia deaths over the same or following MMWR Weeks?",
+    "comment": "In my EDA, I saw some clusters in overall US Covid cases, so I want to explore if there are any time series cross-correlations among influenza, pneumonia, and COVID-19 deaths"
+  },
+  {
+    "question": "Are states with higher average weekly total deaths experiencing proportionally higher Percent of Expected Deaths, or do smaller states report larger relative deviations? How does this relationship evolve over the timeline covered by the dataset?",
+    "comment": "My correlation chart indicated minimal direct correlation between total deaths and the percentage of Expected Deaths. By looking at state size (by total deaths) with relative mortality (expected deaths percent), we can probabaly explore whether the pandemic mortality impact disproportionately varies by state size and time."
+  },
+  {
+    "question": "Is the ratio of Pneumonia and COVID-19 Deaths to total COVID-19 Deaths constant or significantly variable by month and MMWR week? Does variability exist? Does this ratio have any trends?",
+    "comment": "We can look at the joint occurrence of Pneumonia and COVID-19 deaths relative to overall COVID-19 deaths and explore shifts in disease characteristics."
+  },
+  {
+    "question": "Do months or MMWR Weeks with very high influenza deaths also consistently report higher overall deaths from Pneumonia, Influenza, or COVID-19?",
+    "comment": "The pattern combined mortality of these respiratory illnesses can indicate the consistency of this relationship and see whether influenza seasons reliably predict peaks in combined respiratory mortality."
+  }
+]

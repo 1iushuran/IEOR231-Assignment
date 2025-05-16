@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Do cities or metropolitan areas with smaller populations consistently report higher or lower hate crime incident rates per capita compared to larger cities, and does this pattern hold true across different bias motivations?",
+    "comment": "Due to my population data and bias-type incidents, we can reveal that smaller cities differ systematically in per-capita incident rates across race, religion, gender identity types."
+  },
+  {
+    "question": "Is there a clear quarterly seasonality in hate crime incidents,  does this seasonality pattern vary by bias motivation type?",
+    "comment": "This is helpful in our time series analysis, We can detect seasonal decomposition, hidden patterns or systematic spikes across different bias motivations"
+  },
+  {
+    "question": "Are certain bias motivations significantly correlated with one another at the city or metropolitan area level",
+    "comment": "Given multiple types of bias motivations in our dataset, we can explore their correlations at the city level. "
+  },
+  {
+    "question": "Are cities with unusually high incidents of one type of hate crime consistently reporting elevated incidents in other categories",
+    "comment": "This analysis uses anomaly detection. we can use z-scores or Isolation Forest methods to see unusually high incidents in certain categories. "
+  },
+  {
+    "question": "Does the distribution of hate crime incidents differ among cities, metropolitan counties, and non-metropolitan counties",
+    "comment": "We can use statistical tests like ANOVA to examine if incident distributions differ significantly across categoriies: cities, metropolitan counties, and non-metropolitan counties "
+  }
+]

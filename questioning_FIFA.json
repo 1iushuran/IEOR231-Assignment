@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Is there a relationship between player age groups and the diversity of clubs they play for, and can clustering reveal stable player migration patterns across age segments?",
+    "comment": "My EDA in age-group club distribution shows different numbers of unique clubs at certain age intervals, so there are probably specific age ranges (younger vs. mid career players) that consistently move between more or fewer clubs"
+  },
+  {
+    "question": "Are there hidden player archetypes identifiable through combinations of height and weight, if so how consistent are these archetypes within clubs or nationalities?",
+    "comment": "I conducted a scatterplot of height vs. weight, which suggests clusters of typical physical builds. Using unsupervised learning like k-means can define these archetypes explicitly and then examine how consistently clubs or countries prefer certain player archetypes."
+  },
+  {
+    "question": "Do nationality distributions significantly differ across age groups",
+    "comment": "The bar chart of nationalities in my EDA might conceal hidden trends across age groups."
+  },
+  {
+    "question": "Is player age significantly correlated with player height or weight variance within clubs, do larger clubs show different correlations compared to smaller clubs?",
+    "comment": "My EDA includes age, height, weight, and club size. So we can check whether larger clubs differ significantly from smaller clubs in this respect."
+  },
+  {
+    "question": "Are there any unusual age-height-weight combinations concentrated within certain clubs or age groups?",
+    "comment": "Based on my joint distribution plots, some points clearly appear as outliers. We can use anomaly detection methods to identify distinctive recruiting patterns or measurement/reporting irregularities."
+  }
+]

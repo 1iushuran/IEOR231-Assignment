@@ -1,0 +1,37 @@
+[
+  {
+    "question": "What is the fatigue limit for steel?",
+    "ai_answer": "Usually 200 MPa.",
+    "your_evaluations": "This answer is too generic because the fatigue limit varies with steel type and composition; and the provided answers lack testing environment factors such as load type, stress ratio, and cycle frequency which affect results. Besides, temperature, corrosion, and surface finish play key roles. To answer the question, the exact material composition, heat treatment, and specific test conditions should be provided for a complete evaluation."
+  },
+  {
+    "question": "How can one prevent SQL injection attacks?",
+    "ai_answer": "Use input sanitization.",
+    "your_evaluations": "This answer is incomplete and potentially misleading because it omits crucial practices such as prepared statements and parameterized queries, over-relies on sanitization, and might lead developers to falsely assume that sanitization covers all security aspects. Best Practices: To secure SQL queries, always use prepared statements, parameterized queries, and implement a least privilege strategy for database access."
+  },
+  {
+    "question": "what does shui lei tun hexagram from yijing mean",
+    "ai_answer": "The hexagram often appears when one is at a ​​crossroads​​, urging caution and perseverance",
+    "your_evaluations": "The answer is too generic because each hexagram can have many meanings based on that person's situation, and give corresponding advice. It can mean make good friends and find people to help you (better born in ox year, dog year, or last name of Zhang). Moreover, based on the specific situation, it also can be explained as villains hinder or there may be scandals."
+  },
+  {
+    "question": "In MySQL, I have a ranking of individuals from 1 to 10, where each person receives half of the remaining prize pool (starting at 100,000). I need a MySQL query to: identify the rank of the first person for whom the remaining prize drops below 10,000",
+    "ai_answer": "AI keeps giving me recursive SQL code",
+    "your_evaluations": "The Answer is too costly using recursion because I can change the question to prize drops below to a very small amount, instead of 10,000, it keeps calculating the remaining prize using the loop. However, the remaining prize is given, which is exactly equivalent to the prize that they have. I can simply use min(rows of < 10,000 prize amount) to get the answer instead of using a recursive loop."
+  },
+  {
+    "question": "How do i create a json file in Google Colab",
+    "ai_answer": "Method 1: Using Python's json module [code snippet]; Method 2: Using the %%writefile magic command [code snippet]; Method 3: Using the files module (for uploading/downloading) [code snippet]; Method 4: Using pandas (if working with DataFrames) [code snippet]. Verifying the file was created Remember that files created in Colab are temporary and will be deleted when the runtime is restarted. If you need to persist them, you should download them or save them to Google Drive.",
+    "your_evaluations": "Although AI gives me four different methods, but just as it said at the end, those are all temporary files. When I mentioned Google Colab, I expect AI to focus on the online drive mode instead of these regular local compiler that it provided. So, I want it use mount+cp route writes to /content then copies to Drive, so the file survives after the Colab session ends. Even it provided a methods to save the files but it only considers coding to download to the local or suggest manually download temporary ones instead of explicitly considering online drive's nature"
+  },
+  {
+    "question": "Are these two phrases set logically equivalent? (言出必行 [Keeping one's word], 出尔反尔 [Going back on one's word], 诚信 [Integrity]) vs. (童叟无欺 [No deception of young or old], 市无二价 [No double pricing in the market], 交易 [transactions])",
+    "ai_answer": "Yes. The first Set 言出必行​​ (Keeping one's word) and ​​出尔反尔​​ (Going back on one's word) are contrasting phrases about commitment and honesty. ​诚信​​ (Integrity) is the overarching theme tying them together. The ​second Option ​童叟无欺​​ (No deception of young or old) and ​​市无二价​​ (No double pricing in the market) both emphasize fairness and honesty in ​​交易​​ (transactions). Like the first set, this group contrasts ethical behavior (fair pricing, no cheating) with a unifying concept (trade/business integrity).",
+    "your_evaluations": "The answer is wrong. Even though AI was analyzed to show that the first phrase set is a contrast and the second phrase set is a synonym, in terms of comparing their logics, AI gives a wrong answer. "
+  },
+  {
+    "question": "what does this MySQL code return: Round(trunc(mod(1600,10),-1),2)",
+    "ai_answer": "We can look at the calculation process of this expression step by step:mod(1600,10): Calculates the remainder of 1600 divided by 10, and the result is 0. trunc(…, -1): The TRUNCATE(X, D) function in MySQL truncates X to D decimal places. When D is negative, it means truncation to the left of the decimal point.Here, the result of TRUNCATE(0, -1) is still 0. round(…,2): Rounds the result to 2 decimal places. The result of round(0,2) is still 0. Therefore, the calculation result of the entire expression Round(trunc(mod(1600,10),-1),2) is 0.",
+    "your_evaluations": "The Answer is 0.00. AI has already explicitly said the answer is 0.00 in its analysis process, I don't know why the final output of the answer it gives to me is 0 in the end."
+  }
+]
